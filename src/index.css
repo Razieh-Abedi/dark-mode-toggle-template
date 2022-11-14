@@ -10,7 +10,7 @@ Global Styles
   --clr-primary: #d23669;
 } */
 .dark-theme {
-  --clr-bcg: #282c35 ;
+  --clr-bcg: #282c35;
   --clr-font: #fff;
   --clr-primary: #d23669;
 }
@@ -91,4 +91,11 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
   cursor: pointer;
+}
+.footer {
+  text-align: center;
+}
+.footer-link {
+  text-decoration: none;
+  color: black;
 }

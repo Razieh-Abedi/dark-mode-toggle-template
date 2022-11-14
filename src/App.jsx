@@ -38,6 +38,16 @@ function App() {
           return <Article key={item.id} {...item} />;
         })}
       </section>
+      <footer className="footer">
+        <a
+          href="https://raziwebdeveloper.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          Developed with ❤ by raziwebdeveloper.com
+        </a>
+      </footer>
     </main>
   );
 }
